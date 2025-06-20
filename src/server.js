@@ -22,7 +22,7 @@ connectDB()
 // Middleware to parse JSON requests
 app.use(
   cors({
-    orign: "http://localhost:5173", // Adjust this to your frontend URL
+    origin: ["http://localhost:5173", "https://naingseiha.github.io"],
   })
 );
 app.use(express.json());
